@@ -74,7 +74,7 @@ section {
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
-    background: grey;
+    background: whitesmoke;
     padding: 1%;
 }
 
@@ -85,9 +85,16 @@ section {
 article {
     margin-left: 4%;
     width: 26.66%;
-    background: white;
+    background: grey;
     padding: 1%;
     border-radius: 2%;
+    opacity: 0.8;
+}
+
+article:hover {
+    opacity: 1;
+    box-shadow: 3px 3px 3px 3px;
+    cursor: pointer;
 }
 
 aside {
@@ -133,6 +140,7 @@ article img {
 
 section header {
     text-align: center;
+    color: black;
 }
 
 section a img {
@@ -140,4 +148,20 @@ section a img {
     border: 0px;
     float: right;
     margin: 0%;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 2%;
+    color: black;
+}
+
+footer p {
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 3%;
+}
+
+footer {
+    margin-top: 20%;
 }
