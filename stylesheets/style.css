@@ -9,6 +9,9 @@ nav grey: #5b5e6d;
 
 /* ---- reset ---- */
 
+
+/* ---- reset ---- */
+
 html {
     box-sizing: border-box;
 }
@@ -34,134 +37,170 @@ body {
     line-height: 147%;
 }
 
-p {
-    margin: 0%;
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+
+/* ---- layout ---- */
+
+#site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
 }
 
-img {
-    width: 15%;
-    border: 2px solid black;
+#site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+}
+
+#site-main {
+    margin-bottom: 60px;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/* ---- components ---- */
+
+.button {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.button-alt {
+    color: blue;
+    background-color: #fff;
+}
+
+
+/* ---- section ---- */
+
+section.testimonials .button {
+    margin-bottom: 10px;
 }
 
 .principal-header {
-    position: fixed;
+    position: static;
     top: 0%;
-    width: 100%;
     background: black;
-    color: white;
-    z-index: 10;
-    text-decoration: none;
+    color: whitesmoke;
+    padding: 3%;
 }
 
-h1 img {
-    height: 18px;
-    width: 18px;
-    float: left;
-    margin-left: 5%;
+.logo {
+    block-size: 0.7em;
+    margin: 0% 0% 0% 1%;
+    inline-size: auto;
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 1.2em;
+    margin-left: 1%;
+    text-align: center;
+}
+
+h3 {
+    inline-size: 100%;
+    margin-top: 10%;
+    block-size: 0.8em;
+    text-align: center;
+}
+
+section p {
+    inline-size: 90%;
     margin-left: 5%;
-    float: left;
-    width: 20%;
+    margin-right: 5%;
+    block-size: auto;
+    opacity: 0.7;
     text-align: left;
 }
 
 section {
+    inline-size: 100%;
     position: static;
-    width: 70%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-    background: whitesmoke;
-    padding: 1%;
+    padding: 2%;
 }
 
-.projects {
-    margin-top: 2.2%;
+section img {
+    margin: 5%;
 }
 
 article {
-    margin-left: 4%;
-    width: 26.66%;
-    background: grey;
-    padding: 1%;
-    border-radius: 2%;
-    opacity: 0.8;
+    margin: 7% 5% 5% 5%;
+    inline-size: 90%;
+    height: auto;
+    color: black;
+    background: whitesmoke;
+    padding: 2%
 }
 
-article:hover {
-    opacity: 1;
-    box-shadow: 3px 3px 3px 3px;
-    cursor: pointer;
+h4 {
+    inline-size: 100%;
+    block-size: 0.8em;
+    text-align: center;
+}
+
+section footer {
+    margin: 2%, 2%, 2%, 2%;
+    display: none;
+}
+
+.card-footer {
+    margin: 10% 0% 0% 0%;
+    padding: 2%;
+    inline-size: 90%;
+    color: black;
+    background: whitesmoke;
+}
+
+a img {
+    display: none;
 }
 
 aside {
-    position: absolute;
-    top: 2.2%;
-    width: 30%;
-    margin-left: 70%;
-    margin-right: 0%;
-    margin-top: 1%;
+    inline-size: 100%;
+    color: whitesmoke;
     background: black;
-    z-index: 1;
+    padding: 2%;
 }
 
-aside h3 {
-    text-align: center;
-    color: white;
-    font-size: 1.2em;
+.ico-interes {
+    inline-size: 90%;
+    margin-left: 9%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.ico-interes img {
+    inline-size: 16%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+
+img {
+    align-content: center;
+    inline-size: 90%;
+    margin: 1% 5% 2% 5%;
+}
+
+ul {
     text-decoration: none;
-}
-
-aside section {
-    width: 80%;
-    margin: 5% 15% 5% 5%;
-    background: none;
-}
-
-aside img {
-    width: 80%;
-    margin: 5% 15% 5% 5%;
-}
-
-h3 {
-    text-align: center;
-    font-size: 1.6em;
-    color: black;
-    text-decoration: none;
-}
-
-article img {
-    width: 80%;
-    margin: 1% 10% 1% 10%;
-}
-
-section header {
-    text-align: center;
-    color: black;
-}
-
-section a img {
-    width: 10%;
-    border: 0px;
-    float: right;
-    margin: 0%;
-}
-
-section p {
-    text-align: center;
-    margin-bottom: 2%;
-    color: black;
-}
-
-footer p {
-    margin-top: 15%;
-    text-align: left;
-    margin-left: 3%;
-}
-
-footer {
-    margin-top: 20%;
+    list-style-type: none;
 }
