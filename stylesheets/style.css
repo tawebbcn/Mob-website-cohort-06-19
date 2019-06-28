@@ -180,11 +180,25 @@ aside {
     padding: 2%;
 }
 
+.ico-weapons {
+    inline-size: 90%;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ico-weapons img {
+    inline-size: 22%;
+    block-size: 22%;
+    margin-left: 4%;
+    margin-top: 5%;
+    align-content: center;
+}
+
 .ico-interes {
     inline-size: 90%;
     margin-left: 9%;
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -193,6 +207,7 @@ aside {
     block-size: 16%;
     margin-left: 2.5%;
     margin-top: 5%;
+    align-content: center;
 }
 
 img {
