@@ -220,3 +220,23 @@ ul {
     text-decoration: none;
     list-style-type: none;
 }
+
+#display-none {
+    display: none;
+}
+
+.escondido {
+    display: none;
+}
+
+.flecha-projects {
+    width: 80%;
+    margin: 0% 10%;
+    background: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 27px;
+    height: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+}
