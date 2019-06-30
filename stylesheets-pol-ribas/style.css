@@ -1,0 +1,271 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+
+/* ---- reset ---- */
+
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+    min-width: 315px;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+
+/* ---- layout ---- */
+
+#site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+}
+
+#site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+}
+
+#site-main {
+    margin-bottom: 60px;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/* ---- components ---- */
+
+.button {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.button-alt {
+    color: blue;
+    background-color: #fff;
+}
+
+
+/* ---- section ---- */
+
+section.testimonials .button {
+    margin-bottom: 10px;
+}
+
+.principal-header {
+    position: static;
+    top: 0%;
+    background: black;
+    color: whitesmoke;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.logo {
+    block-size: 0.7em;
+    margin: 0% 0% 0% 1%;
+    inline-size: auto;
+}
+
+h1 {
+    margin-left: 5%;
+    font-size: 1.2em;
+    width: 60%;
+}
+
+h3 {
+    inline-size: 100%;
+    margin-top: 10%;
+    block-size: 0.8em;
+    text-align: center;
+}
+
+.burger-menu {
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+    background: black;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+@media (min-width: 470px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
+.burger-menu div {
+    width: 30%;
+    margin-bottom: 5%;
+    margin-left: 70%;
+    height: 12%;
+    background: whitesmoke;
+}
+
+section p {
+    inline-size: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    block-size: auto;
+    opacity: 0.7;
+    text-align: left;
+}
+
+section {
+    inline-size: 100%;
+    position: static;
+    padding: 2%;
+}
+
+section img {
+    margin: 5%;
+}
+
+article {
+    margin: 7% 5% 5% 5%;
+    inline-size: 90%;
+    height: auto;
+    color: black;
+    background: whitesmoke;
+    padding: 2%
+}
+
+h4 {
+    inline-size: 100%;
+    block-size: 0.8em;
+    text-align: center;
+}
+
+section footer {
+    margin: 2%, 2%, 2%, 2%;
+    display: none;
+}
+
+.card-footer {
+    margin: 10% 0% 0% 0%;
+    padding: 2%;
+    inline-size: 90%;
+    color: black;
+    background: whitesmoke;
+}
+
+a img {
+    display: none;
+}
+
+aside {
+    inline-size: 100%;
+    color: whitesmoke;
+    background: black;
+    padding: 2%;
+}
+
+.ico-weapons {
+    inline-size: 90%;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ico-weapons img {
+    inline-size: 22%;
+    block-size: 22%;
+    margin-left: 4%;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.ico-interes {
+    inline-size: 90%;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ico-interes img {
+    inline-size: 16%;
+    block-size: 16%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    align-content: center;
+}
+
+img {
+    align-content: center;
+    inline-size: 90%;
+    margin: 1% 5% 2% 5%;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#display-none {
+    display: none;
+}
+
+.escondido {
+    display: none;
+}
+
+.flecha-projects,
+.flecha-laboratoris {
+    width: 80%;
+    margin: 0% 10%;
+    background: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 27px;
+    height: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+}
