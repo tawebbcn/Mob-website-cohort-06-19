@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122338160-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122338160-1');
+  </script>
+
+
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8343989405057964",
+      enable_page_level_ads: true
+    });
+  </script>
+
+  <title>Jairo Varela / Web Developer</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Convert your ideas into real projects!">
+  <meta name="author" content="Jairo Varela - Web Developer">
+  <link rel="shortcut icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+  <!-- ******HEADER****** -->
+  <header class="header">
+    <div class="container">
+      <img class="profile-image img-responsive pull-left circle" src="assets/images/logos/circular-logo-vairojarela.png"
+        alt="Jairo Varela" width="180px" height="auto" />
+      <div class="profile-content pull-left">
+        <h1 class="name">Jairo Varela</h1>
+        <h2 class="desc" style="color: #128ae5" >Web Developer</h2>
+        <ul class="social list-inline">
+          <li><a href="tel:+584244739564"><i class="fa fa-phone"></i></a></li>
+          <li><a href="https://twitter.com/vairojarela" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/vairojarela" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://github.com/vairojarela" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+        </ul>
+      </div>
+      <!--//profile-->
+
+      <a class="btn btn-cta-primary pull-right" href="mailto:me@vairojarela.com?Subject=Contacted you from vairjarela.com!%20again"><i
+          class="fa fa-paper-plane"></i> Contact me now!</a>
+
+    </div>
+    <!--//container-->
+
+  </header>
+  <!--//header-->
+  <div class="container sections-wrapper">
+    <!--<center>
+        <section id="section10" class="demo section">
+          <a href=""><span></span><span></span><span></span></a>
+        </section>
+    </center>-->
+    <div class="section-inner">
+      <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+          <section id="section-about" class="about section">
+            <div class="section-inner">
+              <h2 class="heading">About Me</h2>
+              <div class="content">
+                <p>I'm Jairo. I've been into computers since I can remember. So I made this site to share my projects,
+                  ideas, successes, strugles and overall skillset!</p>
+
+                <p><strong>Everything</strong> that has to do with tech piques my interest. From software like
+                  operative systems (UNIX/ CentOS & Windows), open source initiatives, programming languages and
+                  frameworks, all the way to hardware, stationary or handheld devices, cloud computing, server
+                  configurations and more.</p>
+
+                <p>And mainly, I'm passionate about working with creative and innovative professionals, helping others
+                  in making their projects and start-up ideas come true with fast, efficient and beautiful results. I
+                  also love soccer, surfing and dogs.</p>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+          <!--//section-->
+
+          <section class="latest section">
+            <div class="section-inner">
+              <h2 class="heading">Latest Projects</h2>
+              <div class="content">
+
+                <div class="item featured text-center">
+                  <h3 class="title"><a href="http://woodandthingscorp.com/" target="_blank">Wood & Things              </a></h3>
+                  <h4 class="summary">A corporate website for the wood industry.</h4>
+                  <div class="featured-image">
+                    <a href="http://woodandthingscorp.com/" target="_blank">
+                      <center>
+                        <img class="img-responsive project-image" src="assets/images/logos/woodandthings-logo.png" alt="project name">
+                      </center>
+                    </a>
+                    <!--
+                        <div class="ribbon">
+                        <div class="text">New</div>
+                      </div>
+                    -->
+                  </div>
+
+                  <div class="desc text-left">
+                    <p>Corporate website for a growing decoration and interior design company, using primarely <a href="https://woodandthingscorp.com/" target="_blank">wooden materials</a>
+                    and applications. They firmly believe that each product they sell must be of superior
+                      quality, offering the best materials on the market, so that their clients have the best version
+                      of their project.</p>
+                  </div>
+                  <!--//desc-->
+                  <a class="btn btn-cta-secondary" href="http://woodandthingscorp.com/" target="_blank"><i class="fa fa-thumbs-o-up"></i>
+                    Visit Wood & Things</a>
+                </div>
+
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="https://galeriaespacio5.com/exhibiciones" target="_blank">
+                    <center><img class="img-responsive project-image" style="margin-top: 30px;" src="assets/images/logos/logo-espacio5.jpg" alt="Galeria espacio5" /></center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="https://galeriaespacio5.com/exhibiciones" target="_blank">espacio5</a></h3>
+                    <h4>Art Gallery</h4>
+                    <p class="summary">A minimalistic website for espacio 5 art gallery.</p>
+                    <p>This was my first big project. <a href="https://galeriaespacio5.com/exhibiciones" target="_blank">espacio5</a>
+                      art gallery needed an online space to showcase their past, present and future exhibitions, while
+                      also being able to publish news, events and featured artists and their artwork.</p>
+                    <p>The project was fullfilled in less a month, a few weeks earlier than the client
+                      anticipated!
+                    </p>
+                    <p><a class="more-link" href="https://galeriaespacio5.com/exhibiciones" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="http://weddingglammiami.com" target="_blank">
+                    <center><img class="img-responsive project-image" src="assets/images/logos/WGM-Submark-Black.png"
+                        alt="Wedding Glam Miami" />
+                    </center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="http://weddingglammiami.com/" target="_blank">Wedding Glam Miami
+                        </a></h3>
+                        <h4>Professional Make-up Services</h4>
+                    <p>This project consisted in redisigning an existing Wordpress page and extending its WP theme
+                      capabilities. Rewrote most of the code to my needs, while mantaining constant communication with
+                      the client to attend to her design guidelines. In the end, everything worked out, and <a href="http://www.weddingglammiami.com/about-us"
+                        target="_blank">Nathalia Benitez</a> was more than happy with her new website, which definitely
+                      represented more her bussiness, taste and style.
+                    </p>
+                    <p><a class="more-link" href="http://weddingglammiami.com/" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+<hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="https://proyectadesign.com/proyectos" target="_blank">
+                    <center><img class="img-responsive project-image" style="margin-top: 30px;" src="assets/images/logos/proyectadesign-logo-small.png"
+                        alt="Proyecta Design" /></center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="https://proyectadesign.com" target="_blank">Proyecta Design</a></h3>
+                        <h4>Architecture Firm</h4>
+                    <p>Small Wordpress Project developed for architect José Tovar. Includes multiple projects,
+                      galleries, blueprints and information about the firm and its team, wrapped in with a simple but
+                      stylish design.</p>
+                    <p><a class="more-link" href="https://proyectadesign.com" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="http://sinapsix.com.ve/" target="_blank">
+                    <center><img class="img-responsive project-image" src="assets/images/logos/logo-sinapsix.png" alt="Sinapsix" /></center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="http://sinapsix.com.ve/" target="_blank">Sinapsix</a></h3>
+                        <h4>Proffesional Consulting Services for Management and Logistics</h4>
+                    <p>Redesigned and developed the company's website. Added products page, details and rewrote the code so it could be easily mantained in the future. Learned a lot
+                      of <a href="http://php.net/manual/en/intro-whatis.php" target="_blank">PHP Hypertext Procesor
+                        (PHP)</a> language in the process, while delivering a final result that left the customer
+                      absolutely satisfied.</p>
+                    <p><a class="more-link" href="http://sinapsix.com.ve/" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="http://kayisa.store" target="_blank">
+                    <center><img class="img-responsive project-image" style="margin-top: 40px;" src="assets/images/logos/kayisa-logo.png"
+                        alt="Kayisa" /></center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="http://kayisa.store" target="_blank">Kayisa</a></h3>
+                    <h4>Crochet for Mermaids</h4>
+                    <p>As an amazing handmade crochet entrepenourship by Haydee Gonzalez, the brand Kayisa needed an
+                      eshop platform to support its's sale process. Developed in Wordpress, using the <a href="https://woocommerce.com/storefront/"
+                        target="_blank">Storefront Theme</a> and several other plugins. Customized <a href="http://php.net/manual/en/intro-whatis.php"
+                        target="_blank">PHP</a> pages, product details, categories, PayPal payment support, contact
+                      forms, Mailchimp and many more capabilities are planned for this ongoing project.</p>
+                    <p><a class="more-link" href="https://kayisa.store" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="http://valentinavarela.com" target="_blank">
+                    <center><img class="img-responsive project-image" src="assets/images/logos/valen-logo.png" alt="Valentina Varela" /></center>
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="http://valentinavarela.com" target="_blank">Valentina Varela</a></h3>
+                        <h4>Professional Chef</h4>
+                    <p>Curriculum Vitae website made with <i class="fa fa-heart heart"></i> for my sister <a href="http://valentinavarela.com"
+                        target="_blank">Valentina</a> as a small gift for completing her career studies. Used <a href="https://www.creative-tim.com/product/paper-kit"
+                        target="_blank">Paper Kit</a> by <a href="https://www.creative-tim.com" target="_blank">Creative
+                        Tim.</a></p>
+                    <p><a class="more-link" href="http://valentinavarela.com" target="_blank"><i class="fa fa-external-link"></i>
+                        Find out more</a></p>
+                  </div>
+                  <!--//desc-->
+                </div>
+                <!--//item-->
+                <hr class="divider" />
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+          <!--//section-->
+<section class="experience section">
+            <div class="section-inner">
+              <h2 class="heading">Work Experience</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title">Web Developer - IT Manager - <span class="place"><a href="http://studiolimbicode.com">Limbicode
+                        Studio</a></span> <span class="year">(2018 - 2019)</span></h3>
+
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title">Freelance Web Applications Developer - Full Stack Developer - <span class="place"><a
+                        href="http://vairojarela.com">Independent</a></span> <span class="year">(2017 - Present)</span></h3>
+                  <p>Design, development, tests and implementation of custom web applications for a variety of
+                    individuals, startups and organizations, covering a wide range of tech solutions.</p>
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title">Internship as SAPUI5 Developer - <span class="place"><a href="http://www.sofoscorp.com"
+                        target="_blank">SofOS</a></span> <span class="year">(2016 - 2017)</span></h3>
+                  <p>Completed an internship at SofOS, a SAP Gold Partner. Designed, developed, tested and implemented
+                    a planning application for the poultry industry, used for supervising food, sanitary and transport
+                    plans of live chickens in multiple warehouses connected by SAP/HANA technologies and libraries.</p>
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="title">IT Technician & Project Manager - <span class="place"><a href="#">Flexiplast</a></span>
+                    <span class="year">(2013 - 2016)</span></h3>
+                  <p>Provided multiple types of support in productive, administrative and IT operations. Also planned,
+                    managed, supervised and executed different improvement projects for the company, while reporting
+                    directly to senior staff.</p>
+                </div>
+                <!--//item-->
+
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+          <!--//section-->
+          <section class="projects section">
+            <div class="section-inner">
+              <h2 class="heading">Other Projects</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title"><a href="#">Flexiapp</a> <span class="label label-theme">Open Source</span></h3>
+                  <p class="summary">Merchandising and Sales Application made using the Django Python framework.</p>
+                  <p><a class="more-link" href="#" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title"><a href="http://ueguzmanclanco.com.ve">Institutional Website for U.E. Guzmán Blanco</a>
+                    <span class="label label-theme">Open Source</span></h3>
+                  <p class="summary">Comunity Service Project, photos, contact page and location for public elementary
+                    school Guzmán Blanco.</p>
+                  <p><a class="more-link" href="http://ueguzmanclanco.com.ve" target="_blank"><i class="fa fa-external-link"></i>
+                      Find out more</a></p>
+                </div>
+                <!--//item-->
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+          <!--//section-->
+
+          
+        </div>
+        <!--//primary-->
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+          <aside class="info aside section">
+            <div class="section-inner">
+              <h2 class="heading sr-only">Basic Information</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Barcelona, Spain</li>
+                  <li><i class="fa fa-phone"></i><span class="sr-only">Phone:</span><a href="tel:34695439043">+34695439043</a></li>
+                  <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:me@vairojarela.com?subject=Email%20Subject&body=Email%20Body%20Text">me@vairojarela.com</a></li>
+                  <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="https://www.vairojarela.com"
+                      target="_blank">https://vairojarela.com</a></li>
+                </ul>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//aside-->
+
+          <aside class="skills aside section">
+            <div class="section-inner">
+              <h2 class="heading">Skills</h2>
+              <div class="content">
+                <p class="intro">
+
+                </p>
+                <div class="skillset">
+
+                  <div class="item">
+                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip"
+                        data-placement="left" data-animation="true" title="A powerful Model-View-Template scalable framework  based on high level programming language.">Expert</span></h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="90%">
+                      </div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">PHP &amp; Wordpress<span class="level-label" data-toggle="tooltip"
+                        data-placement="left" data-animation="true" title="The world's most popular Content Management System (CMS) based on PHP.">Expert</span></h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="90%">
+                      </div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip"
+                        data-placement="left" data-animation="true" title="The cornerstones of any respectable web app developer.">Expert</span></h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="85%">
+                      </div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip"
+                        data-placement="left" data-animation="true" title="Probably the most popular and extended client and server side language that has ever existed.">Pro</span></h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="75%">
+                      </div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+                </div>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+
+          <aside class="testimonials aside section">
+            <div class="section-inner">
+              <h2 class="heading">Testimonials</h2>
+              <div class="content">
+                <div class="item">
+                  <blockquote class="quote">
+                    <p><i class="fa fa-quote-left"></i>Jairo is an excellent software developer and he is passionate
+                      about what he does. You can totally count on him to deliver your projects!</p>
+                  </blockquote>
+                  <p class="source"><span class="name"><a href="http://www.weddingglammiami.com/about-us" target="_blank">Nathalia
+                        Benitez</a></span><br /><span class="title">Founder of Wedding Glam Miami</a></span></p>
+                </div>
+                <!--//item-->
+
+                <p><a class="more-link" href="http://www.weddingglammiami.com/"><i class="fa fa-external-link"></i>
+                    More on Wedding Glam Miami</a></p>
+
+              </div>
+              <!--//content-->
+              <div class="content">
+                <div class="item">
+                  <blockquote class="quote">
+                    <p><i class="fa fa-quote-left"></i>The project was completed within the deadline, and Jairo
+                      mantained great disposition and receptivity to our constant revisions, until we got exactly the
+                      web site that we needed and described while recieving great service, advice and support by him
+                      during the design and development process of the site.</p>
+                  </blockquote>
+                  <p class="source"><span class="name"><a href="https://www.galeriaespacio5.com/contact-us" target="_blank">Ar.
+                        Rafael Ovalles</a></span><br /><span class="title">Staff Member of espacio5 Art Gallery</a></span></p>
+                </div>
+                <!--//item-->
+                <p><a class="more-link" href="https://www.galeriaespacio5.com/"><i class="fa fa-external-link"></i>
+                    More on espacio5</a></p>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+
+          <aside class="education aside section">
+            <div class="section-inner">
+              <h2 class="heading">Education</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Information Engineering</h3>
+                  <h4 class="university">Central Technologial University (UNITEC) <span class="year">(2013-Present)</span></h4>
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Computing Engineering</h3>
+                  <h4 class="university">Simón Bolívar University (USB) <span class="year">(2011-2013)</span></h4>
+                </div>
+                <!--//item-->
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+
+          <aside class="languages aside section">
+            <div class="section-inner">
+              <h2 class="heading">Languages</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li class="item">
+                    <span class="title"><strong>Spanish: </strong></span>
+                    <span class="level">Native Speaker <br class="visible-xs visible-sm visible-md" /><i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                    </span>
+                  </li>
+                  <!--//item-->
+                  <li class="item">
+                    <span class="title"><strong>English: </strong></span>
+                    <span class="level">Professional Fluency <br class="visible-xs visible-sm visible-md" /><i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                  </li>
+                  <!--//item-->
+                </ul>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+          <aside class="credits aside section">
+            <div class="section-inner">
+              <h2 class="heading">Credits</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap</a></li>
+                  <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i>
+                      FontAwesome</a></li>
+                  <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
+                  <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i>
+                      jQuery RSS</a></li>
+                  <hr>
+                  <li>Profile Image: <a href="https://www.instagram.com/highdee.view" target="_blank">@highdee.view</a></li>
+                </ul>
+
+                <hr />
+
+                <p>This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying"
+                    target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd
+                    Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/"
+                    target="_blank">Creative Commons Attribution 3.0 License</a></p>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+
+        </div>
+        <!--//secondary-->
+      </div>
+      <!--//row-->
+    </div>
+    <!--//masonry-->
+
+    <!-- ******FOOTER******
+    <footer class="footer">
+      <div class="container text-center">-->
+    <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+    <!--<small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>-->
+    <!--</div>//container-->
+    <!--</footer>//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <!--<script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>-->
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
